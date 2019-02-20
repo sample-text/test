@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Companies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="companies pageWrapper">
+
+        <section class="companies__section totalCompanies">
+            <h2 class="header2 companies__header">Total Companies</h2>
+            <div class="companies__content">
+                <div class="loader"></div>
+                <div class="totalCompanies__circle">
+                    <span class="totalCompanies__count"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="companies__section listOfCompanies">
+            <h2 class="header2 companies__header">List of Companies</h2>
+            <div class="companies__content">
+                <div class="loader"></div>
+                <ul class="listOfCompanies__list"></ul>
+            </div>
+        </section>
+
+		<!-- Изначально скрытый блок партнеров -->
+        <section class="companies__section companyPartners cut-down">
+        	<h2 class="header2 companies__header">Company Partners</h2>
+        	<div class="companies__content">
+                <ul class="companyPartners__list"></ul>
+            </div>
+        </section>
+
+        <section class="companies__section companiesByLocation">
+            <h2 class="header2 companies__header">Companies by Location</h2>
+            <div class="companies__content">
+                <div class="loader"></div>
+            </div>
+        </section>
+
+        <section class="companies__section news">
+            <h2 class="header2 companies__header">News</h2>
+            <div class="companies__content">
+                <div class="loader"></div>
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
